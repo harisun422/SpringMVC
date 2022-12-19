@@ -19,6 +19,8 @@ public class AddController {
 		int b= Integer.parseInt(req.getParameter("a2"));
 		int k=a+b;
 		
+		//inserted new line
+		
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("display.jsp");
 		mv.addObject("result"+k);

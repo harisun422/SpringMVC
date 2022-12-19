@@ -3,6 +3,6 @@
 <html>
 <body>
 <h3>Result is </h3>
-<%=request.getAttribute("result") %>
+	<%=request.getAttribute("result") %>
 </body>
 </html>
